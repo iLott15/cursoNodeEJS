@@ -11,5 +11,5 @@ app.get("/sobre",function(req, res){ // é o nome do site/sobre
     res.render("about");
 });
 
-app.listen(8080); //carregando tudo do express, com a função listen q irá ouvir a porta 8080
+app.listen(4040); //carregando tudo do express, com a função listen q irá ouvir a porta 8080
 console.log('rodando');
