@@ -7,9 +7,9 @@ app.get("/",function(req, res){
     res.render("index"); //app.get está criando uma rota, a / refere-se ao nome do site
 });
 
-app.get("/sobre",function(req, res){ // é o nome do site/sobre
+app.get("/about",function(req, res){ // é o nome do site/sobre
     res.render("about");
 });
 
 app.listen(4040); //carregando tudo do express, com a função listen q irá ouvir a porta 8080
-console.log('rodando');
+console.log('Server OK!');
